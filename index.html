@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let ps = prompt("やるひとを入力")
+    let count = 0
+    let ss = prompt("好きな数を入力してください（英語モードで）")
+    alert("では当てます！！")
+    function pst() {
+      if (ps == "shuuki") {
+        alert(`好きな数字:${ss}`)
+      } else {
+        alert(`生体認証の結果、　しゅうきではなく、${ps}であることが判明しました！！　しゅうきでやり直してください！！`)
+      }
+    }
+    pst()
+  </script>
+</body>
+
+</html>
